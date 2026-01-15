@@ -6,3 +6,5 @@ seaborn
 scikit-learn
 mlxtend
 requests
+bs4
+lxml
