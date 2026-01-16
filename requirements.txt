@@ -8,3 +8,4 @@ mlxtend
 requests
 bs4
 lxml
+ydata-profiling
