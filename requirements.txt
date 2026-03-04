@@ -11,3 +11,4 @@ lxml
 ydata-profiling
 plotly
 nbformat
+streamlit
