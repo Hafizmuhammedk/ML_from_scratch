@@ -1,46 +1,58 @@
 # ML From Scratch
 
-A hands-on machine learning repository focused on core concepts, preprocessing, feature engineering, and regression/classification workflows using Python notebooks.
+A practical machine learning repository built with Jupyter notebooks, focused on understanding concepts by implementing and experimenting step by step.
 
-## What this repo contains
+## Overview
 
-This project is organized as topic-wise folders, mostly with Jupyter notebooks and small datasets to practice each concept end-to-end.
+This repository contains topic-wise notebooks covering:
 
-Main areas covered:
+- Data collection (CSV, JSON, APIs, web scraping)
+- EDA (univariate and bivariate analysis, profiling)
+- Missing-value handling and imputation
+- Encoding and feature transformation
+- Outlier detection and removal
+- Scikit-learn pipelines and column transformers
+- Regression models and metrics
+- Logistic regression and gradient descent
+- PCA and dimensionality reduction
 
-- Data collection (`working_with_csv_files`, `working_with_json`, `Fetching_Data_From_an-API`, `Fetching_data_using_WebScraping`)
-- Exploratory analysis (`univariate-analysis`, `bivariate-analysis`, `Understanding_Data`, `pandas-profiling`)
-- Data preprocessing (missing values, encoding, scaling, transformations)
-- Feature engineering (`feature-construction-and-feature-splitting`, date-time handling, binning)
-- Outlier handling (`outlier-removal-*`, `outlier-detection-*`)
-- Model pipelines (`sklearn-pipelines`, `column-transformer`)
-- Regression topics (simple, multiple, polynomial, elastic net, metrics)
-- Logistic regression and optimization (`gradient-descent`, `types-of-gradient-descent`, `logistic-regression-contd`)
-- Dimensionality reduction (`pca`)
+## Repository Highlights
 
-## Tech stack
+- 30+ focused learning modules in separate folders
+- Mini datasets included for reproducible notebook runs
+- From-scratch intuition notebooks for optimization topics
+- Streamlit demo for logistic regression decision boundaries
+
+## Tech Stack
 
 - Python
 - Jupyter Notebook
-- NumPy, Pandas, Matplotlib, Seaborn
+- NumPy, Pandas
+- Matplotlib, Seaborn, Plotly
 - Scikit-learn
-- Streamlit (for one interactive demo)
+- Streamlit
 
-## Getting started
+## Quick Start
 
-### 1. Clone the repository
+### 1. Clone
 
 ```bash
-git clone https://github.com/<your-username>/ML_from_scratch.git
+git clone git@github.com:Hafizmuhammedk/ML_from_scratch.git
 cd ML_from_scratch
 ```
 
-### 2. Create and activate a virtual environment
+### 2. Create virtual environment
 
 ```bash
 python -m venv .venv
+```
+
+Activate it:
+
+```bash
 # Linux/macOS
 source .venv/bin/activate
+
 # Windows (PowerShell)
 .venv\Scripts\Activate.ps1
 ```
@@ -57,17 +69,13 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Open any folder and run the corresponding `.ipynb` file.
-
-## Run the Streamlit demo
-
-This repo includes an interactive logistic regression visual tool:
+## Run Interactive Demo
 
 ```bash
 streamlit run logistic-regression-contd/streamlit-viz-tool.py
 ```
 
-## Repository structure (high level)
+## Project Structure
 
 ```text
 ML_from_scratch/
@@ -111,19 +119,16 @@ ML_from_scratch/
 
 ## Notes
 
-- Most notebooks are educational experiments and demonstrations.
-- Some folders include trained artifacts (`.pkl`) and generated files (`.html`, `.gif`).
-- Datasets are small and primarily for learning/practice purposes.
+- This is a learning-first project; notebooks emphasize intuition and experimentation.
+- Some folders include generated artifacts such as `.pkl`, `.html`, and `.gif` files.
 
 ## Contributing
 
-Contributions are welcome.
-
 1. Fork the repository
 2. Create a feature branch
-3. Commit changes
+3. Commit your changes
 4. Open a pull request
 
 ## License
 
-Add a license file (`LICENSE`) if you want others to reuse this project with clear terms.
+If you want to make reuse explicit, add a `LICENSE` file (for example MIT).
